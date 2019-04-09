@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hgxboke_ui:war exploded">
+    <output-path>$PROJECT_DIR$/hgxboke_ui/target/hgxboke_ui</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>hgxboke_ui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hgxboke_ui" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/hgxboke_ui/target/hgxboke_ui/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hgxboke_ui/web/Web" />
+    </root>
+  </artifact>
+</component>

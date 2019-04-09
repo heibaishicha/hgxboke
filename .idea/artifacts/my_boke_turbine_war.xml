@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my_boke_turbine:war">
+    <output-path>$PROJECT_DIR$/my_boke_turbine/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my_boke_turbine</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my_boke_turbine.war">
+      <element id="artifact" artifact-name="my_boke_turbine:war exploded" />
+    </root>
+  </artifact>
+</component>

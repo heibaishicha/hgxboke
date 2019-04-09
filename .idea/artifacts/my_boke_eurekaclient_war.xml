@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my_boke_eurekaclient:war">
+    <output-path>$PROJECT_DIR$/my_boke_eurekaclient/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my_boke_eurekaclient</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my_boke_eurekaclient.war">
+      <element id="artifact" artifact-name="my_boke_eurekaclient:war exploded" />
+    </root>
+  </artifact>
+</component>

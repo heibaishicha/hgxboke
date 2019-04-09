@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hgxboke.iml" filepath="$PROJECT_DIR$/hgxboke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hgxboke_ui/hgxboke_ui.iml" filepath="$PROJECT_DIR$/hgxboke_ui/hgxboke_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_boke_api/my_boke_api.iml" filepath="$PROJECT_DIR$/my_boke_api/my_boke_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_boke_configserver/my_boke_configserver.iml" filepath="$PROJECT_DIR$/my_boke_configserver/my_boke_configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_boke_eurekaclient/my_boke_eurekaclient.iml" filepath="$PROJECT_DIR$/my_boke_eurekaclient/my_boke_eurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_boke_eurekaserver/my_boke_eurekaserver.iml" filepath="$PROJECT_DIR$/my_boke_eurekaserver/my_boke_eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_boke_turbine/my_boke_turbine.iml" filepath="$PROJECT_DIR$/my_boke_turbine/my_boke_turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_boke_zuul/my_boke_zuul.iml" filepath="$PROJECT_DIR$/my_boke_zuul/my_boke_zuul.iml" />
+    </modules>
+  </component>
+</project>

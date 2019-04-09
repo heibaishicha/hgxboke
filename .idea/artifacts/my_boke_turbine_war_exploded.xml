@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="my_boke_turbine:war exploded">
+    <output-path>$PROJECT_DIR$/my_boke_turbine/target/my_boke_turbine</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>my_boke_turbine</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my_boke_turbine" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/my_boke_turbine/target/my_boke_turbine/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="my_boke_turbine/web/Web" />
+    </root>
+  </artifact>
+</component>

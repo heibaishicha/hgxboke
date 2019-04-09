@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hgxboke_ui" />
+        <module name="my_boke_api" />
+        <module name="my_boke_configserver" />
+        <module name="my_boke_eurekaclient" />
+        <module name="my_boke_eurekaserver" />
+        <module name="my_boke_turbine" />
+        <module name="my_boke_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hgxboke" target="1.5" />
+      <module name="hgxboke_ui" target="1.5" />
+      <module name="my_boke_api" target="1.5" />
+      <module name="my_boke_configserver" target="1.7" />
+      <module name="my_boke_eurekaclient" target="1.5" />
+      <module name="my_boke_eurekaserver" target="1.5" />
+      <module name="my_boke_turbine" target="1.7" />
+      <module name="my_boke_zuul" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

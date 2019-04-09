@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.hgx.my_boke_eurekaclient.boke.dao.BokeDao">
+
+	<!-- 查询出最新的10条博客 -->
+	<select id="findRecentBokes" resultType="com.hgx.my_boke_api.boke.entity.BokeVo">
+		SELECT
+		b.boke_id bokeId,
+		b.boke_title bokeTitle,
+		b.boke_descript bokeDescript,
+		b.boke_html_text bokeHtmlText,
+		left(b.boke_text,200) bokeText,
+		b.boke_create_time bokeCreateTime,
+		b.boke_update_time bokeUpdate,
+		b.boke_keyword bokeKeyword,
+		b.boke_class bokeClass,
+		c.class_name bokeClassName,
+		b.user_id userId,
+		b.nickname nickname
+		FROM
+		boke_detail b
+		INNER JOIN boke_class c ON b.boke_class = c.class_id
+		ORDER BY
+		b.boke_create_time DESC
+		LIMIT 15
+	</select>
+
+</mapper>

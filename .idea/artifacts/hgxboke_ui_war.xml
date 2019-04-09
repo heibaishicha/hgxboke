@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hgxboke_ui:war">
+    <output-path>$PROJECT_DIR$/hgxboke_ui/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hgxboke_ui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hgxboke_ui.war">
+      <element id="artifact" artifact-name="hgxboke_ui:war exploded" />
+    </root>
+  </artifact>
+</component>
